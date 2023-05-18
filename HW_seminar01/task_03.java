@@ -5,7 +5,7 @@
 
  import java.util.Scanner;
 
- public class task3 {
+ public class task_03 {
      static int scanNumber() {
          Scanner scan = new Scanner(System.in);
          int number = scan.nextInt();

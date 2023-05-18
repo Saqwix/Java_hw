@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class task1 {
+public class task_01 {
 
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
