@@ -7,14 +7,14 @@ import java.util.Scanner;
 
 public class task_03 {
     static int scanNumber() {
-        Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
         return number;
     }
 
     static String scanOperations() {
-        Scanner scan = new Scanner(System.in);
-        String operations = scan.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String operations = scanner.nextLine();
         return operations;
 
     }
