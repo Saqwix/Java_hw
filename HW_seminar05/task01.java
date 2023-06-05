@@ -5,12 +5,12 @@ public class task01 {
 
         // Создать множество, ключ и значение строки. Добавить шесть элементов. Вывести в консоль значения.
         HashMap<Integer, String> heroes = new HashMap<>();
-        heroes.put(4, "Фродо");
-        heroes.put(8, "Сем");
-        heroes.put(16, "Леголас");
-        heroes.put(32, "Гэндальф");
-        heroes.put(64, "Арагорн");
-        heroes.put(128, "Галадриэль");
+        heroes.put(4, "1111");
+        heroes.put(8, "2222");
+        heroes.put(16, "3333");
+        heroes.put(32, "4444");
+        heroes.put(64, "5555");
+        heroes.put(128, "6666");
         heroes.forEach((k, v) -> System.out.println(k + " " + v));
         System.out.println(heroes);
 
@@ -27,12 +27,12 @@ public class task01 {
 
         // Создать второе множество с таким же обобщением. Ключи второго множества частично совпадают с ключами первого.
         HashMap<Integer, String> heroesSec = new HashMap<>();
-        heroesSec.put(2, "Бильбо");
-        heroesSec.put(1, "Теоден");
-        heroesSec.put(16, "Фарамир");
-        heroesSec.put(8, "Гимли");
-        heroesSec.put(4, "Саурон");
-        heroesSec.put(6, "Голлум");
+        heroesSec.put(2, "1212");
+        heroesSec.put(1, "1313");
+        heroesSec.put(16, "1414");
+        heroesSec.put(8, "1515");
+        heroesSec.put(4, "1616");
+        heroesSec.put(6, "1717");
         System.out.println(heroesSec);
 
         // Объединить значения во втором множестве и первом, если ключи совпадают. Вывести результат в консоль.
